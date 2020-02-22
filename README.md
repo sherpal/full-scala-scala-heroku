@@ -17,7 +17,7 @@ The app is hosted on Heroku. In order to deploy,
 # Login to Heroku
 heroku login
 
-# Make sure to use the same name in project/BackendSettings.scala
+# Make sure to use the same name as in project/BackendSettings.scala
 heroku apps:create full-stack-scala-example --region eu
 heroku addons:create heroku-postgresql:hobby-dev
 
