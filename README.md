@@ -1,7 +1,7 @@
 # Full Stack Scala on Heroku
 
 This is an example of a full stack Scala application deployed on
-Heroku.
+Heroku. See this [blog post](https://medium.com/@antoine.doeraene/deploying-a-full-stack-scala-application-on-heroku-6d8093a913b3).
 
 ## Stack
 
