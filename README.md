@@ -34,3 +34,25 @@ To see the files on the deployed server:
 ```
 heroku run bash --app APPNAME
 ```
+
+## Dev environment
+
+In order to run the app locally, you will need to set up a postgres database for Slick to connect to.
+
+You should then, in a file `backend/conf/secrets.conf`, define the following variable:
+```
+dbname = "???"
+user = "???"
+slick.dbs.default.db.url = "jdbc:postgresql://localhost:5432/"${dbname}"?user="${user}
+```
+(5432 being the port by default for postgres databases.)
+
+Then, you can use, in one command line (terminal)
+```
+sbt dev
+```
+and in an other,
+```
+sbt backend/run
+```
+and go to `localhost:8080`.
