@@ -49,7 +49,7 @@ Then, you can use, in one command line (terminal)
 # Frontend hot reload only on localhost:8080
 sbt dev
 ```
-and in an other,
+and in another,
 ```bash
 # Backend hot reload only on localhost:9000
 sbt backend/run
