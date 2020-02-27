@@ -37,7 +37,7 @@ heroku run bash --app APPNAME
 
 ## Dev environment
 
-In order to run the app locally, you will need to set up a postgres database for Slick to connect to.
+In order to run the app locally, you will need to set up a postgres database at `localhost:5432` for Slick to connect to.
 
 ```bash
 export JDBC_DATABASE_URL = "jdbc:postgresql://localhost:5432/<db_name>?user=<your_user>&password=<your_password>"
